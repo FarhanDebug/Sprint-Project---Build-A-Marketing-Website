@@ -18,9 +18,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
+
+  .box {
+	margin: 20px;
+	padding: 10px;
+	border: 1px;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -31,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -54,7 +56,9 @@ table {
 
 * {
   box-sizing: border-box;
+
 }
+
 
 html {
   font-size: 62.5%;
@@ -64,7 +68,17 @@ html, body {
   font-family: sans-serif;
   color: black;
 }
-
+nav {
+  display: inline;
+  float: right;
+  font-size: 18px;
+  padding: 5px 10px 13px 20px;
+}
+  body {
+    margin: auto;
+    font-family: "segoe ui"
+    width: 1200px;
+  }
 h1, h2, h3, h4, h5 {
   font-family: sans-serif;
   color: black;
